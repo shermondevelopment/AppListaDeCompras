@@ -25,8 +25,3 @@ extension Product {
         [SortDescriptor(\.name, order: .forward)]
     }
 }
-
-#Playground {
-    let product = Product(name: "Arroz", completed: false)
-    print(product)
-}
